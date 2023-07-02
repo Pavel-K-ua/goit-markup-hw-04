@@ -151,7 +151,6 @@ address {
 }
 
 .hero-section {
-  max-width: 1440px;
   margin: 0 auto;
   background-color: var(--navy-blue);
   background-image: linear-gradient(
@@ -226,8 +225,7 @@ address {
   padding-bottom: 120px;
 }
 
-.team-section,
-.customers-section {
+.team-section {
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -313,6 +311,12 @@ address {
 }
 
 /* Customers */
+
+.customers-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .customers-header {
   margin-bottom: 72px;
 }
@@ -354,7 +358,11 @@ address {
 .footer-container {
   display: flex;
   align-items: first baseline;
-  gap: 120px;
+  /* gap: 120px; */
+}
+
+.footer-logo-wrapper {
+  margin-right: 120px;
 }
 
 
