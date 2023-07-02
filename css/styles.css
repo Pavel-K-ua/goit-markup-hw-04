@@ -152,7 +152,7 @@ address {
 
 .hero-section {
   margin: 0 auto;
-  min-width: 1440px;
+  max-width: 1440px;
   background-color: var(--navy-blue);
   background-image: linear-gradient(
   rgba(46, 47, 66, 0.7), 
@@ -336,23 +336,27 @@ address {
   align-items: center;
   width: 168px;
   height: 88px;
+  color: var(--light-slate);
   border: 1px solid var(--light-slate);
   border-radius: 4px;
 }
 
-.client-icon {
-  fill: var(--light-slate);
-}
-
-.client-link:hover .client-icon,
-.client-link:focus .client-icon {
-  fill: var(--ocean);
-}
-
 .client-link:hover,
 .client-link:focus {
+  color: var(--ocean);
   border-color: var(--ocean);
 }
+
+.client-icon {
+  fill: currentColor;
+}
+
+/* .client-link:hover .client-icon,
+.client-link:focus .client-icon {
+  fill: var(--ocean);
+} */
+
+
 
 /* FOOTER-SOCIALS */
 
